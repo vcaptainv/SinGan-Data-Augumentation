@@ -38,6 +38,9 @@ This will also use the resulting trained model to generate random samples starti
 
 To run this code on a cpu machine, specify `--not_cuda` when calling `main_train.py`
 
+### Remove Training Model
+Go to folder TrainedModels folder to remove the training model of image/video before each training experiment.
+
 ###  Random samples
 To generate random samples from any starting generation scale, please first train SinGAN model for the desire image (as described above), then run 
 
